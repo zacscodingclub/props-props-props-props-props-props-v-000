@@ -89,7 +89,7 @@ small app!
 
 ## How to minimize state with `props`
 
-So what can we do to minimize state? Well, let's think. Really, our two components
+So what can we do to minimize state? Well, let's think. Our two components
 are both lists; they aren't really all that different. What if we just
 conceive of our two components as one simple "presentational" or "dumb" component
 called `FruitList`? This component will just know how to render a list of fruits.
