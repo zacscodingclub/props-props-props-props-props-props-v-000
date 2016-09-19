@@ -19,7 +19,7 @@ in our program's operation what state our component is in. That, in turn, will
 make it harder to reason about our application; and when it becomes harder to
 reason about our application we will struggle more to eradicate and avoid bugs.
 
-> Note: A general principal that one can take on here, as an arguable truth about
+> Note: A general principle that one can take on here, as an arguable truth about
 application design, is that while we often find ourselves needing state in our
 applications, it is state that our human brains struggle most to parse and track.
 
