@@ -14,7 +14,7 @@ necessary, and the ability to explicitly and reliably update state in our compon
 is one of the most powerful features of React. But, state creates complexity.
 
 Once a component has state, it becomes harder to predict its output and behavior.
-Because, by definition, state changes, we won't be able to say at any given point
+Because state changes, we won't be able to say at any given point
 in our program's operation what state our component is in. That, in turn, will
 make it harder to reason about our application; and when it becomes harder to
 reason about our application we will struggle more to eradicate and avoid bugs.
