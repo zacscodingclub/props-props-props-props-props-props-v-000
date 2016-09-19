@@ -156,7 +156,7 @@ to do is send that list down into our `FruitList` component to be rendered.
 
 Now this might seem as though it's a bit more involved, but think of what we've
 accomplished here! Let's summarize. By using props to send our fruit list data
-downward, we've been able simplify our application's implementation, reducing
+downward, we've been able to simplify our application's implementation, reducing
 two components into one. Already that's a huge reduction in code. But that's not
 all we've done.
 
