@@ -91,7 +91,7 @@ small app!
 
 So what can we do to minimize state? Well, let's think. Our two components
 are both lists; they aren't really all that different. What if we just
-conceive of our two components as one simple "presentational" or "dumb" component
+think of our two components as one simple "presentational" or "dumb" component
 called `FruitList`? This component will just know how to render a list of fruits.
 And where will it get this list? That's right...it will receive the list as a
 `prop`. So our new `FruitList` component can even be implemented as a stateless
