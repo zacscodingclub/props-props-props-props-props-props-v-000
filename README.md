@@ -134,7 +134,7 @@ class App extends Component {
   }
 
   toggleListMode() {
-    this.set({ showEaten: !this.state.showEaten });
+    this.setState({ showEaten: !this.state.showEaten });
   }
 
   updateFruitList() {
