@@ -60,7 +60,7 @@ class FruitEaten extends Component {
   componentWillMount() {
     // Assume that this fetch function is a Promise that
     // can go over the internet.
-    fetch('/api/fruit=?eaten=true').then((data) =>
+    fetch('/api/fruit?eaten=true').then((data) =>
       this.setState({ fruitList: data });
     );
   }
